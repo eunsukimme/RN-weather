@@ -1,19 +1,6 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import Loader from "./Loader";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Hello my first RN app!</Text>
-    </View>
-  );
+  return <Loader />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});
