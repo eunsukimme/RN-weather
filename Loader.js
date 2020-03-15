@@ -1,9 +1,10 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, StatusBar } from "react-native";
 
 function Loader() {
   return (
     <View style={styles.container}>
+      <StatusBar barStyle="dark-content" />
       <Text style={styles.text}>Getting the awesome weather...</Text>
     </View>
   );
